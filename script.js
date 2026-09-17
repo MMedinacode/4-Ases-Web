@@ -21,7 +21,7 @@ const MENU = {
     "items": [
       {
         "n": "Completo italiana",
-        "d": "Su cartel marca $4.000 en la columna de al lado, pero el encabezado está tapado: confirmar",
+        "d": "Precio a consultar en el local",
         "img": "completos.jpg"
       },
       {
@@ -68,7 +68,7 @@ const MENU = {
     "items": [
       {
         "n": "Mechada italiana",
-        "d": "Su cartel muestra la mechada entre $5.500 y $6.000 — confirmar cuál es cuál",
+        "d": "Precio a consultar en el local",
         "img": "carta.jpg"
       },
       {

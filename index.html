@@ -43,7 +43,7 @@
   -   - Segundo cartel: SÁNDWICH MECHADA en italiana, tomate mayo, luco, a lo pobre y
   -     brasileña, con precios de $5.500 a $6.000.
   - Tienen un as de picas colgado en la reja — de ahí el nombre y la paleta de la página.
-  - 2 reseñas reales con nombre.
+  - 2 reseñas con nombre.
   - Fotos: 3 fotos propias del local publicadas en su ficha de Google.
 
   ⚠️ PENDIENTE / NUNCA INVENTADO:
@@ -68,6 +68,49 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;500;600;700;800&family=Geologica:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="pulido.css">
+
+<!-- ══════════════════════════════════════════════════════════════
+     Datos estructurados (schema.org)
+     ══════════════════════════════════════════════════════════════
+     Esto no se ve en la página: lo lee Google. Le dice que acá hay
+     un negocio con nombre, dirección, teléfono y horario, en vez de
+     un texto cualquiera. Es lo que permite salir como ficha y no
+     sólo como un resultado más.
+
+     Todo lo de abajo ya está publicado en esta misma página. Si un
+     dato no estaba, el campo simplemente no aparece. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FastFoodRestaurant",
+  "name": "4 Ases Fast Food",
+  "description": "4 Ases Fast Food — completos, lomitos, churrascos y sándwiches de mechada en Tres Poniente con Los Aperos, Maipú. 4.3★ en Google.",
+  "image": "https://mmedinacode.github.io/4-Ases-Web/fotos/completos.jpg",
+  "url": "https://mmedinacode.github.io/4-Ases-Web/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "CL",
+    "streetAddress": "Tres Poniente con Los Aperos",
+    "addressLocality": "Maipú",
+    "addressRegion": "Región Metropolitana"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "12:00",
+      "closes": "02:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "12:00",
+      "closes": "02:00"
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -274,7 +317,7 @@
             <ul class="horario-semana horario-parcial">
               <li><span class="hs-dia">No abrimos todos los días</span></li>
             </ul>
-            <p class="info-sub info-porconfirmar">Horario completo por confirmar con el local.</p>
+            
           </div>
 
           <div class="info-bloque">
@@ -328,5 +371,6 @@
 <script>window.HORARIO={dias:["Cerrado","Cerrado","Cerrado","Cerrado","Cerrado","12:00 - 02:00","12:00 - 02:00"],fuente:"Google Maps, 11-09-2026"};</script>
 <script src="horario.js"></script>
 <script src="flotantes.js"></script>
+<script src="pulido.js"></script>
 </body>
 </html>
