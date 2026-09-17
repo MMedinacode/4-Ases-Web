@@ -90,11 +90,11 @@ const MENU = {
     "items": [
       {
         "n": "Sopaipillas",
-        "d": "Nombradas por una de sus reseñas reales — pero avisan que se demoran"
+        "d": "Nombradas en una de nuestras reseñas — pero avisan que se demoran"
       },
       {
         "n": "Papas fritas",
-        "d": "Nombradas por una de sus reseñas reales"
+        "d": "Nombradas en una de nuestras reseñas"
       }
     ]
   }
