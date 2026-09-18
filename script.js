@@ -16,24 +16,28 @@
    ============================================================ */
 
 const MENU = {
-  "completos": {
-    "label": "Completos",
+  "pollo": {
+    "label": "Pollo",
     "items": [
       {
-        "n": "Completo italiana",
-        "d": "Precio a consultar en el local",
+        "n": "Italiana · pollo",
+        "p": 4000,
+        "d": "Tomate, palta y mayo",
         "img": "completos.jpg"
       },
       {
-        "n": "Completo napolitana",
-        "d": "Con queso, aceitunas, caliente y orégano"
+        "n": "Napolitana · pollo",
+        "p": 4000,
+        "d": "Tomate, aceitunas, queso caliente y orégano"
       },
       {
-        "n": "Completo chacarera",
+        "n": "Chacarera · pollo",
+        "p": 4000,
         "d": "Tomate, poroto verde, mayo y ají"
       },
       {
-        "n": "Completo campesina",
+        "n": "Campesina · pollo",
+        "p": 4000,
         "d": "Choclo, queso, champiñón y mayo"
       }
     ]
@@ -44,12 +48,12 @@ const MENU = {
       {
         "n": "Italiana · lomito o churrasco",
         "p": 4500,
-        "d": "Precio leído de su propio cartel"
+        "d": "Tomate, palta y mayo"
       },
       {
         "n": "Napolitana · lomito o churrasco",
         "p": 4500,
-        "d": "Queso, aceitunas, caliente y orégano"
+        "d": "Tomate, aceitunas, queso caliente y orégano"
       },
       {
         "n": "Chacarera · lomito o churrasco",
