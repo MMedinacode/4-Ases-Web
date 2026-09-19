@@ -126,7 +126,7 @@
   <div class="header-inner">
     <button class="brand" data-tab="inicio">
       <span class="brand-ico" aria-hidden="true">
-        <svg viewBox="0 0 64 64" width="22" height="22"><path d="M10 22h34v18a14 14 0 0 1-14 14h-6a14 14 0 0 1-14-14z" fill="currentColor"/></svg>
+        <img src="fotos/logo.jpg" alt="" width="320" height="320">
       </span>
       <span class="brand-name">4 Ases</span>
     </button>
@@ -365,6 +365,16 @@
   </div>
 </footer>
 
+<!-- WhatsApp: el número que ellos publican en la bio de su Instagram. -->
+<a class="float-wa" href="https://wa.me/56957162033" target="_blank" rel="noopener"
+   aria-label="Escribir por WhatsApp a 4 Ases">
+  <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5 4.5.7.3 1.3.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/></svg>
+</a>
+<a class="float-ig" href="https://instagram.com/4ases.fastfood" target="_blank" rel="noopener"
+   aria-label="Instagram de 4 Ases">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" width="24" height="24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" stroke="none"/></svg>
+</a>
+
 <script src="vida.js"></script>
 <script src="carta-fotos.js"></script>
 <script src="script.js"></script>
@@ -372,6 +382,28 @@
 <!-- Horario REAL de su ficha de Google Maps (11-09-2026). El módulo horario.js pinta la semana completa y el estado en vivo. -->
 <script>window.HORARIO={dias:["Cerrado","Cerrado","Cerrado","Cerrado","Cerrado","12:00 - 02:00","12:00 - 02:00"],fuente:"Google Maps, 11-09-2026"};</script>
 <script src="horario.js"></script>
+<!-- Canales conseguidos el 18-09-2026, de la bio de su propio Instagram.
+     Hasta hoy la página no tenía NINGUNO: ni Instagram, ni WhatsApp, ni
+     la ficha de Google. El cid sale del place id que ya estaba en su
+     enlace de reseñas. -->
+<script>window.REDES = {
+  intro: "Por Instagram publicamos el menú y por WhatsApp tomamos los pedidos.",
+  instagram: {
+    user: "4ases.fastfood",
+    seguidores: "401",
+    nota: "Acá está el menú y lo que va saliendo del local."
+  },
+  whatsapp: {
+    numero: "56957162033",
+    nota: "Para pedidos y delivery en Maipú."
+  },
+  google: {
+    cid: "9957902344206658198",
+    rating: "4,3",
+    resenas: "14"
+  }
+};</script>
+<script src="redes.js"></script>
 <script src="flotantes.js"></script>
 <script src="pulido.js"></script>
 </body>
